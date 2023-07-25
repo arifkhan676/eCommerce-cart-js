@@ -60,7 +60,6 @@ function remove(a) {
     display();
 }
 
-
 function display(a) {
     if (cart.length == 0) {
         document.getElementById('y').innerHTML = 'You cart is empty'
@@ -86,19 +85,3 @@ function display(a) {
 }
 
 
-/*
-
-            <h5 class="card-title">Product 1</h5>
-             <p class="card-text" > 100 tk </p>
-             <button id="btnClick" class="btn btn-primary">Add to Card</button>
-
-const btn = document.getElementById('btnClick');
-
-btn.addEventListener('click', function () {
-    const ID = document.getElementById('x');
-
-    const CardItem = document.getElementById('y');
-
-    const newItem = CardItem.append(ID);
-    console.log(newItem);
-})*/
